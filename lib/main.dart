@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:learing_1/screens/animatedcontainer/animatedcontainer.dart';
+import 'package:learing_1/screens/tiktokscrolling/tiktokscrolling.dart';
+// import 'package:learing_1/screens/animatedcontainer/animatedcontainer.dart';
 // import 'package:learing_1/screens/sliverappbar/sliverappbar.dart';
 // import 'package:learing_1/screens/bottomnavbar/bottomnavbar.dart';
 // import 'package:learing_1/screens/gridview.builder.dart';
@@ -16,8 +17,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(
-        const SystemUiOverlayStyle(statusBarColor: Colors.transparent));
+      const SystemUiOverlayStyle(
+        statusBarColor: Colors.transparent,
+      ),
+    );
     return MaterialApp(
-        debugShowCheckedModeBanner: false, home: Amiatedcontainer());
+      debugShowCheckedModeBanner: false,
+      home: Tiktokscrolling(),
+    );
   }
 }
