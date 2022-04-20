@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:learing_1/screens/circle.dart';
-import 'package:learing_1/screens/squre.dart';
+import 'package:learing_1/screens/listviewbuilder/circle.dart';
+import 'package:learing_1/screens/listviewbuilder/squre.dart';
 
-class Home extends StatelessWidget {
-  Home({Key? key}) : super(key: key);
+class ListBuilder extends StatelessWidget {
+  ListBuilder({Key? key}) : super(key: key);
 
   final List _post = [
     'post_1',
