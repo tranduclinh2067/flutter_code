@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:learing_1/screens/gridview.builder.dart';
+import 'package:learing_1/screens/bottomnavbar/bottomnavbar.dart';
+// import 'package:learing_1/screens/gridview.builder.dart';
 // import 'package:learing_1/screens/listviewbuild/listview.builder.dart';
 
 void main() {
@@ -14,7 +15,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(
         const SystemUiOverlayStyle(statusBarColor: Colors.transparent));
-    return MaterialApp(
-        debugShowCheckedModeBanner: false, home: GirdviewBuilder());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: BottomNavBar());
   }
 }
