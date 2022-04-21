@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:learing_1/screens/tiktokscrolling/tiktokscrolling.dart';
+import 'package:learing_1/screens/datepicker/datepicker.dart';
+// import 'package:learing_1/screens/tiktokscrolling/tiktokscrolling.dart';
 // import 'package:learing_1/screens/animatedcontainer/animatedcontainer.dart';
 // import 'package:learing_1/screens/sliverappbar/sliverappbar.dart';
 // import 'package:learing_1/screens/bottomnavbar/bottomnavbar.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
     );
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Tiktokscrolling(),
+      home: Datepicker(),
     );
   }
 }
